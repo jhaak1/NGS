@@ -1,10 +1,10 @@
 # NGS
 This repository contains the following: 
-1. A Python pipeline for calling variants from whole genome sequencing data.
-2. A workflow for analyzing bulk RNA-seq data.
-3. A screenshot of a BAM file (from the RNA-seq workflow) being viewed in IGV.
-4. A heatmap from the hisat2 portion of the bulk RNA-seq workflow.
-5. A heatmap from the salmon portion of the bulk RNA-seq workflow.
+1. A Python pipeline for calling variants from whole genome sequencing data (opt_pipeline.py).
+2. A workflow for analyzing bulk RNA-seq data (RNA_seq_Workflow.pdf).
+3. A screenshot of a BAM file (from the RNA-seq workflow) being viewed in IGV (igv_brain1.png).
+4. A heatmap from the hisat2 portion of the bulk RNA-seq workflow (hisat2_heatmap.pdf).
+5. A heatmap from the salmon portion of the bulk RNA-seq workflow (salmon_heatmap.pdf).
 
 
 WHOLE GENOME SEQUENCING VARIANT CALLING PIPELINE
