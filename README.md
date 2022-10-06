@@ -5,6 +5,8 @@ This repository contains the following:
 3. A screenshot of a BAM file (from the RNA-seq workflow) being viewed in IGV (igv_brain1.png).
 4. A heatmap from the hisat2 portion of the bulk RNA-seq workflow (hisat2_heatmap.pdf).
 5. A heatmap from the salmon portion of the bulk RNA-seq workflow (salmon_heatmap.pdf).
+6. Selected results from a gene set enrichment analysis (GSEA_results.pdf).
+7. An image of GSEA results that were obtained using the hisat2 RNA-seq data in g:Profiler (hisat2_gProfiler.png).
 
 
 WHOLE GENOME SEQUENCING VARIANT CALLING PIPELINE
