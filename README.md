@@ -16,6 +16,6 @@ This Python pipeline call variants using GATK HaplotypeCaller.  It takes five in
 
 BULK RNA-SEQ WORKFLOW
 
-This workflow uses hisat2 to align transcripts to a reference genome, as well as salmon to classify transcripts.  It then uses edgeR to perform differential expression analysis, followed by the production of heatmaps for visualizing within-group and between-group variability.  It also uses tin.py to calculate transcript integrity numbers (TIN).
+This workflow uses hisat2 to align transcripts to a reference genome, as well as Salmon to classify transcripts.  It then uses edgeR to perform differential expression analysis, followed by the production of heatmaps for visualizing within-group and between-group variability.  It also uses tin.py to calculate transcript integrity numbers (TIN).
 
 
