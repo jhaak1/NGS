@@ -12,7 +12,7 @@ This repository contains the following:
 
 ANTIBODY NGS PIPELINE
 
-This R pipeline starts with a CSV file of unique nucleotide sequences from antibody amplicon sequencing.  These sequences are then processed to yield a new CSV file that contains CDR H3 amino acid sequences and their corresponding read numbers (Freq), as well as a figure that shows the distribution of CDR H3 lengths.
+This R pipeline starts with a CSV file of unique nucleotide sequences from antibody amplicon sequencing.  These sequences are then processed to yield a new CSV file that contains CDR H3 amino acid sequences and their corresponding read numbers (Freq), as well as a figure that shows the distribution of CDR H3 lengths.  The pipeline is displayed as an R Markdown PDF file.
 
 
 WHOLE GENOME SEQUENCING VARIANT CALLING PIPELINE
