@@ -10,17 +10,17 @@ This repository contains the following:
 8. An image of GSEA results that were obtained using the hisat2 RNA-seq data in g:Profiler (hisat2_gProfiler.png).
 
 
-1. ANTIBODY NGS PIPELINE
+ANTIBODY NGS PIPELINE
 
 This R pipeline starts with a CSV file of unique nucleotide sequences from antibody amplicon sequencing.  These sequences are then processed to yield a new CSV file that contains CDR H3 amino acid sequences and their corresponding read numbers (Freq), as well as a figure that shows the distribution of CDR H3 lengths.
 
 
-2. WHOLE GENOME SEQUENCING VARIANT CALLING PIPELINE
+WHOLE GENOME SEQUENCING VARIANT CALLING PIPELINE
 
 This Python pipeline call variants using GATK HaplotypeCaller.  It takes five inputs: the base name of two paired-end FASTQ samples, the base name of hisat2 index files, the relative or absolute location of a FASTA reference sequence for GATK, the full name of a known indels file for base recalibration, and the full name of a known SNPs file for base recalibration.  Outputs include a sorted BAM file with duplicates marked and base quality scores recalibrated, a VCF file of variants, the mean MAPQ score from the hisat2 alignment, the total number of variants called, and the mean QUAL score from the VCF file.
 
 
-3. BULK RNA-SEQ WORKFLOW
+BULK RNA-SEQ WORKFLOW
 
 This workflow uses hisat2 to align transcripts to a reference genome, as well as Salmon to classify transcripts.  It then uses edgeR to perform differential expression analysis, followed by the production of heatmaps for visualizing within-group and between-group variability.  It also uses tin.py to calculate transcript integrity numbers (TIN).
 
