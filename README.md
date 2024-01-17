@@ -1,11 +1,11 @@
 # NGS
 This repository contains the following: 
 1. A pipeline for analyzing antibody NGS data (Antibody_NGS.pdf).
-2. A Python pipeline for calling variants from whole genome sequencing data (opt_pipeline.py).
-3. A workflow for analyzing bulk RNA-seq data (RNA_seq_Workflow.pdf).
-4. A screenshot of a BAM file (from the RNA-seq workflow) being viewed in IGV (igv_brain1.png).
-5. A heatmap from the hisat2 portion of the bulk RNA-seq workflow (hisat2_heatmap.pdf).
-6. A heatmap from the salmon portion of the bulk RNA-seq workflow (salmon_heatmap.pdf).
+2. An automated Python pipeline for calling variants from whole genome sequencing data (opt_pipeline.py).
+3. A pipeline for analyzing bulk RNA-seq data (RNA_seq_Workflow.pdf).
+4. A screenshot of a BAM file (from the RNA-seq pipeline) being viewed in IGV (igv_brain1.png).
+5. A heatmap from the hisat2 portion of the bulk RNA-seq pipeline (hisat2_heatmap.pdf).
+6. A heatmap from the salmon portion of the bulk RNA-seq pipeline (salmon_heatmap.pdf).
 7. Selected results from a gene set enrichment analysis (GSEA_results.pdf).
 8. An image of GSEA results that were obtained using the hisat2 RNA-seq data in g:Profiler (hisat2_gProfiler.png).
 
