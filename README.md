@@ -1,19 +1,12 @@
 # NGS
 This repository contains the following: 
-1. A pipeline for analyzing antibody NGS data (Antibody_NGS.pdf).
-2. An automated Python pipeline for calling variants from whole genome sequencing data (opt_pipeline.py).
-3. A pipeline for analyzing bulk RNA-seq data (RNA_seq_Workflow.pdf).
-4. A screenshot of a BAM file (from the RNA-seq pipeline) being viewed in IGV (igv_brain1.png).
-5. A heatmap from the hisat2 portion of the bulk RNA-seq pipeline (hisat2_heatmap.pdf).
-6. A heatmap from the salmon portion of the bulk RNA-seq pipeline (salmon_heatmap.pdf).
-7. Selected results from a gene set enrichment analysis (GSEA_results.pdf).
-8. An image of GSEA results that were obtained using the hisat2 RNA-seq data in g:Profiler (hisat2_gProfiler.png).
-
-
-ANTIBODY NGS PIPELINE
-
-This R pipeline starts with a CSV file of unique nucleotide sequences from antibody amplicon sequencing.  These sequences are then processed to yield a new CSV file that contains CDR H3 amino acid sequences and their corresponding read numbers (Freq), as well as a figure that shows the distribution of CDR H3 lengths.  The pipeline is displayed as an R Markdown PDF file.
-
+1. An automated Python pipeline for calling variants from whole genome sequencing data (opt_pipeline.py).
+2. A pipeline for analyzing bulk RNA-seq data (RNA_seq_Workflow.pdf).
+3. A screenshot of a BAM file (from the RNA-seq pipeline) being viewed in IGV (igv_brain1.png).
+4. A heatmap from the hisat2 portion of the bulk RNA-seq pipeline (hisat2_heatmap.pdf).
+5. A heatmap from the salmon portion of the bulk RNA-seq pipeline (salmon_heatmap.pdf).
+6. Selected results from a gene set enrichment analysis (GSEA_results.pdf).
+7. An image of GSEA results that were obtained using the hisat2 RNA-seq data in g:Profiler (hisat2_gProfiler.png).
 
 WHOLE GENOME SEQUENCING VARIANT CALLING PIPELINE
 
